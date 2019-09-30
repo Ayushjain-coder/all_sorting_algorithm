@@ -84,7 +84,7 @@ void bubble_sort(int a[])
 {
     int temp;
    for(i=0;i<n;i++)
-     for(j=0;j<n-i;j++)
+     for(j=0;j<n-i-1;j++)
         if(a[j]>a[j+1])
         {
          temp=a[j+1];
