@@ -14,6 +14,7 @@ void merge_sort(int[],int);
 void merge(int[],int[],int[],int,int);
 void quick_sort(int[],int,int);
 int partition(int[],int,int);
+//here main function starts
 int main()
 {
    int ch;
@@ -29,6 +30,7 @@ int main()
    printf("\nEnter the no of elements: ");
    scanf("%d",&n);
    int a[n];
+   
    for(i=0;i<n;i++)
    {
        printf("Enter the element: ");
